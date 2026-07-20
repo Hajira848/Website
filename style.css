@@ -285,6 +285,70 @@ th {
     color: #555;
     font-weight: 600;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.logo-icon {
+    position: relative;
+    width: 42px;  
+    height: 42px; 
+    background: linear-gradient(135deg, #ff5722, #ff7043); 
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(255, 87, 34, 0.3);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.logo-icon::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 14px solid #ffffff; 
+    position: absolute;
+    transform: skewX(-15deg) translateY(-4px);
+}
+
+.logo-icon::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 14px solid #ffffff; 
+    position: absolute;
+    transform: skewX(-15deg) translateY(6px) translateX(-2px);
+}
+.logo:hover .logo-icon {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 87, 34, 0.5);
+    background: linear-gradient(135deg, #ff7043, #ff5722);
+}
+
+
+.logo-text {
+    color: #ffffff;
+    font-size: 1.75rem; 
+    letter-spacing: -0.5px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.logo-text span {
+    font-weight: 300; 
+    color: #e2e8f0;
+    opacity: 0.95;
+    margin-left: 1px;
+}
 
 
 .site-footer {
