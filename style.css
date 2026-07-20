@@ -95,7 +95,7 @@ body {
 }
 
 .explore-btn {
-    background-color: #441dcf; 
+   background-color: #0f2d4a;
     color: #ffffff;
     border: none;
     padding: 14px 32px;
@@ -110,6 +110,7 @@ body {
 
 .explore-btn:hover {
     transform: translateY(-2px);
+        background-color: #004a2c;
 }
 
 .explore-btn:active {
