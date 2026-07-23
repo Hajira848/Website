@@ -532,7 +532,6 @@ td {
     }
 }
 
-/* Mobile Devices (Max Width: 600px) */
 @media (max-width: 600px) {
     .site-navbar {
         padding: 8px 0;
