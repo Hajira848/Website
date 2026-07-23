@@ -1,7 +1,7 @@
-# Har kisi search engine crawler ko allow karo
+# Allow all search engine crawlers
 User-agent: *
 Disallow: /admin/
 Disallow: /private/
 
-# Aapki Sitemap File ka Location (Apna real domain name yahan likhein)
-Sitemap: https://your-domain.netlify.app/sitemap.xml
+# Location of your sitemap
+Sitemap: https://your-domain.netlify.app/sitemap.xml                                       
