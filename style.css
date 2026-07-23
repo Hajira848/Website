@@ -517,9 +517,6 @@ td {
     color: #ffffff;
 }
 
-/* MEDIA QUERIES FOR FULL RESPONSIVENESS */
-
-/* Tablet Screens (Max Width: 900px) */
 @media (max-width: 900px) {
     .footer-container {
         grid-template-columns: 1fr 1fr;
